@@ -36,6 +36,11 @@
   transform: translate(3%,-15%);
 }
 }
+@media only screen and (max-width: 190px){
 
+.img {
+  display: none;
+}
+}
 
 </style>

@@ -12,14 +12,14 @@
       </h4>
       <div class="links">
         <a
-          href=""
+          href="https://nitdgplug.org"
           target="_blank"
           class="button--green"
         >
           GLUG
         </a>
         <a
-          href="https://nitdgplug.org"
+          href=""
           target="_blank"
           class="button--grey"
         >
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="footer">
-      Created and Handled by :<br /> GNU/LINUX USER's GROUP, NIT Durgapur
+      <span>Created and Handled by :<br /></span> <h5>GNU/LINUX USER'S GROUP, NIT Durgapur</h5>
     </div>
   </div>
   </body>
@@ -73,10 +73,15 @@ export default {
   display: block;
   font-weight: 1000;
   font-size: 15px;
-  color: rgb(133, 221, 221);
   word-spacing: 2px;
   padding-bottom: 15px;
   line-break: break-all;
+}
+.footer span {
+  color: rgb(165, 96, 39);
+}
+.footer h5 {
+  color: white;
 }
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
