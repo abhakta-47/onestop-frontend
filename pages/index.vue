@@ -5,7 +5,7 @@
       <logo /> 
       <!-- We can introduce same colour headline as the club website -->
       <h1 class="title">
-        OneStop
+        One<span class="highlighted">Stop</span>
       </h1>
       <h4 class="subtitle">
         In view to ease out the database management system for a company and to handle the data of the employees, co-workers, people attending seminars, conferences and workshops, etc. in a swift and easy-flow manner. Can be taken as a reference for further ideas and similar concepts henceforth.
@@ -78,10 +78,10 @@ export default {
   line-break: break-all;
 }
 .footer span {
-  color: rgb(165, 96, 39);
+  color: #fa631c;
 }
 .footer h5 {
-  color: white;
+  color: #528dcc;
 }
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
@@ -92,7 +92,9 @@ export default {
   color: #528dcc;
   letter-spacing: 1px;
 }
-
+span.highlighted {
+  color: #fa631c;
+}
 .subtitle {
   font-weight: 300;
   font-size: 20px;
