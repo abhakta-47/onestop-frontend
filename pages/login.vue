@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-8">
+    <div class="row justify-content-center">
+      <div class="col-2 d-none d-md-block"></div>
+      <div class="col-sm-12 col-md-8 col-lg-6">
         <div class="w-full max-w-xl">
           <form class="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-4">
             <div class="mb-4">
@@ -38,15 +38,15 @@
                 Please choose a password.
               </p>
             </div>
-            <div class="flex items-center justify-between">
+            <div class="conclusion">
               <button
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                class="bg-gray-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="button"
               >
-                Sign In
+                Sign&nbsp;In
               </button>
               <a
-                class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+                class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" style="font-size:0.8rem"
                 href="#"
               >
                 Forgot Password?
@@ -58,7 +58,7 @@
           </p>
         </div>
       </div>
-      <div class="col-2"></div>
+      <div class="col-2 d-none d-md-block"></div>
     </div>
   </div>
 </template>
@@ -90,6 +90,13 @@ export default {
   background: rgb(27, 27, 27);
 }
 form {
-  word-break: break-all;
+  line-break: auto;
+}
+form a {
+  padding-left: 8px;
+}
+
+@media screen and (max-width:280px) {
+
 }
 </style>
