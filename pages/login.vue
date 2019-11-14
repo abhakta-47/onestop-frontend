@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
         <div class="w-full max-w-xl">
-          <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-4">
+          <form class="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-4">
             <div class="mb-4">
               <label
                 class="block text-gray-700 text-sm font-bold mb-2"
@@ -54,7 +54,7 @@
             </div>
           </form>
           <p class="text-center text-gray-500 text-xs">
-            &copy;2019 Acme Corp. All rights reserved.
+            &copy;2019 GNU/LINUX USER'S GROUP . All rights reserved.
           </p>
         </div>
       </div>
@@ -75,3 +75,21 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.container-fluid {
+  width: 100vw!important;
+  height: 100vh!important;
+  background-color: black!important; 
+}
+.row {
+  height: 100vh!important;
+  background-color: rgb(27, 27, 27);
+}
+.col-8 {
+  background: rgb(27, 27, 27);
+}
+form {
+  word-break: break-all;
+}
+</style>

@@ -18,13 +18,7 @@
         >
           GLUG
         </a>
-        <a
-          href=""
-          target="_blank"
-          class="button--grey"
-        >
-          LogIn <!-- In the login section, we can say that only a  -->
-        </a>
+        <nuxt-link to="/login" class="button--grey">LogIn</nuxt-link> <!-- In the login section, we can say that only a  -->
       </div>
     </div>
     <div class="footer">
